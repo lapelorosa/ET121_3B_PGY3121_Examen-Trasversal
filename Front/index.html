@@ -17,17 +17,36 @@
 
     <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
+        <li><a href="Login.html">Login</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#product">Product</a></li>
+        <li><a href="Producto.html">Product</a></li>
         <li style="float:right"><a class="active" href="#about">About</a></li>
     </ul>
 
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #d0c692">
+        <div class="container-fluid" style="background-color: #d0c692">
+            <a class="navbar-brand ms-5" href="Producto.html"> AREA VERDE </a>
+            <div class="input-group d-none d-md-flex w-50">
+                <input class="form-control rounded-end pe-5" type="search" placeholder="Buscar productos"
+                    aria-label="Search" />
+                <i class="bi bi-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
+                <i class="bi bi-heart position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"
+                    style="transform: translateX(300%) translateY(-50%) !important"><a href="./favoritos.html"></a></i>
+            </div>
+
+            <a class="ns-1 ms-md-3 me-n1 me-lg-2 me-1 me-md-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="bi bi-person-circle"></i>
+                <small>TITULO</small>
+            </a>
+        </div>
+    </nav>
 
     <!--Fin nav -->
 
 
-   <center><h1>TITULO</h1></center>
+    <center>
+        <h1>TITULO</h1>
+    </center>
 
     <!--Inicio-Carousel -->
 
@@ -53,7 +72,6 @@
                     <div class="slide-image">
                         <img src="Img/carusel_2.jpg">
                     </div>
-
 
                     <div class="carousel-controls">
                         <label for="img-1" class="prev-slide">
@@ -90,9 +108,10 @@
     <!-- Fin-Carousel -->
 
     <hr>
+
     <!-- Seleccion Imagen -->
 
-    <head>
+    
         <style>
             body {
                 margin: 25px;
@@ -107,19 +126,37 @@
 
             }
 
+
             div.container {
                 text-align: center;
                 padding: 20px 30px;
             }
 
+            div.button {
+                background-color: rgb(158, 147, 147);
+                /* Green */
+                border: none;
+                color: rgb(158, 147, 147);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .button4 {
+                font-size: 20px;
+            }
         </style>
-    </head>
+    
 
     <div class="polaroid">
         <img src="img/maceteroprinci.webp" alt="5 Terre" style="width:100%">
         <div class="container">
             <p>
-            <h1>Maceteros</h1>
+            <h1><button class="button button4" > MACETERO
+                <a href="Macetero.html"></a></button>
+            </h1>
             </p>
         </div>
     </div>
@@ -128,31 +165,28 @@
         <img src="img/semillaprinci.jpg" alt="5 Terre" style="width:100%">
         <div class="container">
             <p>
-            <h1>Semillas</h1>
-            </p>
+                <h1><button class="button button4" > SEMILLA
+                    <a href="Semilla.html"></a></button>
+                </h1>
+                </p>
         </div>
     </div>
 
     <div class="polaroid">
         <img src="Img/tierradehojaprinci.jpeg" alt="Norther Lights" style="width:100%">
         <div class="container">
-            <p>
-            <h1>Tierra de Hojas</h1>
-            </p>
         </div>
+        <p>
+            <h1><button class="button button4" > TIERRA HOJA
+                <a href="Tierra.html"></a></button>
+            </h1>
+            </p>
     </div>
 
+
+
+
     <!-- Fin Imagen -->
-
-
-
-   
-
-
-
-
-
-
 
 
 
